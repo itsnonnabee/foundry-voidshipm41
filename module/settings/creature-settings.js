@@ -150,6 +150,6 @@ export class DLCreatureSettings extends FormApplication {
         this.object.update({
             formData
         });
-        this.object.sheet.render(true);
+        this.object.sheet.render({force: true});
     }
 }
